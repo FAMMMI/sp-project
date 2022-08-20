@@ -6,6 +6,9 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Footer from './Pages/Shared/Footer';
 import Service from './Pages/Home/Service';
+import Services from './Pages/Home/Services';
+import Login from './Pages/Login/Login';
+import Signup from './Pages/Login/Signup';
 
 
 function App() {
@@ -14,7 +17,12 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+
         {/* <Route path="/service" element={<Service />} /> */}
       </Routes>
       <Footer></Footer>
