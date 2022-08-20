@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQESnbHiwX_MhGRgYi_D827D-t6_TE6kRAbJAOeRbBicfeX4orEaOkfd9ZzeUMbz1V6qjY&usqp=CAU",
+        "name": "Andrew Roberts",
+        "background": "Data Scientist"
+    },
+    {
+        "id": "2",
+        "img": "https://images.unsplash.com/photo-1512484776495-a09d92e87c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1lbiUyMGZhY2V8ZW58MHx8MHx8&w=1000&q=80",
+        "name": "Nathan Ake",
+        "background": "Competitive Programmer"
+    },
+    {
+        "id": "3",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVAI2_G58sMfYGJKErfYaQu_dK5BJru8xJ9MxnNjcL8ffv1is_yJzecu7DVIt8wjrMMVE&usqp=CAU",
+        "name": "Jack Sparrow",
+        "background": "Researcher in Neural Network"
+    },
+    {
+        "id": "4",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtitgMp8nMK92dpLcCnESrVjN5TaPYOONLmH3jePxHB7rJeGbZj7X4z8W-gJR6DRn9S9s&usqp=CAU",
+        "name": "Andrew Straus",
+        "background": "Web Developer"
+    }
+]

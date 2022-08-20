@@ -9,6 +9,8 @@ import Service from './Pages/Home/Service';
 import Services from './Pages/Home/Services';
 import Login from './Pages/Login/Login';
 import Signup from './Pages/Login/Signup';
+import RequireAuth from './Pages/Login/RequireAuth';
+import ServiceDetails from './Pages/Home/ServiceDetails';
 
 
 function App() {
@@ -19,11 +21,15 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={
+          <Services />
+        } />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
 
-        {/* <Route path="/service" element={<Service />} /> */}
+
+
+        <Route path="/service/:id" element={<ServiceDetails />} />
       </Routes>
       <Footer></Footer>
 
