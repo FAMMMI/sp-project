@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "React Development",
+        "price": 4000,
+        "Description": "Be a front-end web developer by learning React with a lot of practice and assignments."
+    },
+    {
+        "id": "2",
+        "name": "Python basic",
+        "price": 6000,
+        "Description": "Learn Pyhton to be an expert in Machine Learning."
+    },
+    {
+        "id": "3",
+        "name": "Competitive Programing",
+        "price": 10000,
+        "Description": "Be a coder by learning c and c++ and be a codeGod ."
+    },
+    {
+        "id": "4",
+        "name": "Data mining",
+        "price": 14000,
+        "Description": "Be a data scientist and analyst by exploring Data mining and data science."
+    },
+    {
+        "id": "5",
+        "name": "Neural Network",
+        "price": 12000,
+        "Description": "Be an expert in AI by learning Neural Network and explore the Artificial Intelligence."
+    }
+]
