@@ -2,12 +2,16 @@ import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import { useNavigate } from 'react-router-dom';
 const ServiceDetails = ({ course, setCourse, refetch }) => {
+    const navigate = useNavigate();
     const [user, loading] = useAuthState(auth);
-    const { name, price, Description, img } = course;
+    const { id, name, price, Description, img } = course;
     const handleBooking = event => {
         event.preventDefault();
-        toast(`Paid $${price} for ${name} course`);
+
+        // navigate(`/servicedetails/${id}`);
+        toast.success(`Successfully enrolled for ${name} and $${price} is paid`)
         refetch();
         setCourse(null);
     }

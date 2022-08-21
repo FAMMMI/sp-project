@@ -82,7 +82,7 @@ const Login = () => {
 
 
                 <form onSubmit={handleSubmit} class="card-body items-center text-center">
-                    <h2 class="card-title text-2xl">Login</h2>
+                    <h2 class="card-title text-4xl text-primary">Login</h2>
                     <div className="input-group mb-0 w-75 mx-auto form-control">
                         <label htmlFor='email' className="label">
                             <span className="label-text">Email</span>
@@ -103,8 +103,8 @@ const Login = () => {
 
                 </form>
                 {errorElement}
-                <p className='my-3 fs-5'>
-                    New User? <Link className='form-link' to='/signup'><span className='text-primary'>Sign Up</span></Link>
+                <p className='my-3 fs-5 text-center'>
+                    New User? <Link className='form-link' to='/signup'><span className='text-primary font-bold'>Sign Up</span></Link>
                 </p>
                 <SocialLogin></SocialLogin>
                 <ToastContainer></ToastContainer>

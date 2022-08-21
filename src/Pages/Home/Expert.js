@@ -6,7 +6,7 @@ const Expert = ({ expert }) => {
 
     return (
 
-        <div class="card w-96 h-full bg-base-100 shadow-xl">
+        <div class="card lg:max-w-lg bg-base-100 shadow-xl">
             <div class="avatar">
                 <div class="w-24 mx-auto my-4 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                     <img src={img} />

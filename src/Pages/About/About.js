@@ -6,7 +6,7 @@ const About = () => {
             <h1 className='text-secondary text-5xl font-bold text-center my-10'>About Us</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mx-4'>
                 <div className='mx-auto text-2xl'>
-                    <h1 className='text-2xl font-semibold'>We are here to help you to build up a good career . We are giving services since 2010 and are very successful . As we have more than 100 experts to give you support . </h1>
+                    <h1 className='text-2xl font-semibold mb-4'>We are here to help you to build up a good career . We are giving services since 2010 and are very successful . As we have more than 100 experts to give you support . Always trust the process and do har work so that you can reach your goal. We are always ready to help you to touch the milestones.  </h1>
                 </div>
                 <div>
                     <p className='text-3xl text-accent text-center mb-6 font-bold'>Our social handles:</p>

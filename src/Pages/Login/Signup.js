@@ -45,10 +45,10 @@ const Register = () => {
 
     return (
         <div class="card w-96 bg-base-100 shadow-xl my-10 mx-auto">
-            <p className='registration-header mt-4 mb-3 text-center'>Welcome To Massive Lift-Up</p>
+            <p className='registration-header mt-4 mb-3 text-center text-4xl text-primary font-bold'>Welcome To Ed-Tech</p>
             <div className='login-signup-container'>
                 <div className='register-form'>
-                    <h2 className='register-header' style={{ textAlign: 'center' }}>Please Register</h2>
+                    <h2 className='register-header text-2xl text-primary font-bold' style={{ textAlign: 'center' }}>Please Register</h2>
                     <form className='card-body items-center text-center' onSubmit={handleRegister}>
                         <div className="input-group form-control">
                             <label className='label' htmlFor='name'>
@@ -92,14 +92,14 @@ const Register = () => {
                         </div>
                         <input
                             disabled={!agree}
-                            className='w-50 mx-auto btn  mt-2 register-btn'
+                            className='w-50 mx-auto btn btn-primary text-white font-bold  mt-2 register-btn'
                             type="submit"
                             value="Sign Up" />
 
 
                     </form>
                     <p className='text-center d-flex'>
-                        Already have an account? <Link className='form-link ' to='/login'><span className='text-primary'>Login</span></Link>
+                        Already have an account? <Link className='form-link ' to='/login'><span className='text-primary font-bold'>Login</span></Link>
                     </p>
                     <SocialLogin></SocialLogin>
 

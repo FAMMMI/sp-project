@@ -11,6 +11,8 @@ import Login from './Pages/Login/Login';
 import Signup from './Pages/Login/Signup';
 import RequireAuth from './Pages/Login/RequireAuth';
 import ServiceDetails from './Pages/Home/ServiceDetails';
+import NotFound from './Pages/Shared/NotFound';
+import Experts from './Pages/Home/Experts';
 
 
 function App() {
@@ -22,14 +24,15 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={
-          <Services />
+          <RequireAuth>
+            <Services />
+          </RequireAuth>
         } />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-
-
-
-        <Route path="/service/:id" element={<ServiceDetails />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experts" element={<Experts />} />
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
 

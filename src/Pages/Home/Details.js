@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Details = () => {
     return (
@@ -7,7 +8,7 @@ const Details = () => {
 
             </p>
 
-            <button className='btn btn-secondary rounded font-bold text-white my-6 mx-10 px-10'>Learn with us !</button>
+            <Link to="/services" className='btn btn-secondary rounded font-bold text-white my-6 mx-10 px-10'>Learn with us !</Link>
         </div>
     );
 };
